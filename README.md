@@ -1,7 +1,9 @@
 # 作成中!!
+
 > [!COUTION]  
 > 現在作成途中です。  
 > 内容には不備があります。  
+
 <p align="left">
 	<img src="image/Title_dark.png#gh-dark-mode-only" alt="banner dark">
 	<img src="image/Title_light.png#gh-light-mode-only" alt="banner light">
