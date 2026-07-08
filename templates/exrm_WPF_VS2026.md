@@ -6,7 +6,7 @@
 |:--|:--|
 |OS|![](./assets/logo_Windows11.png)|
 |IDE|![](./assets/logo_VisualStudio.png)|
-|言語|C#|
+|言語|![](./assets/logo_Csharp.png)|
 |Framework|WPF|
 
 ※ 記号例
