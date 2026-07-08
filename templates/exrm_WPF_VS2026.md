@@ -43,17 +43,17 @@
 　｢ソリューションエクスプローラー｣  
 　　｢📄MainWindow.xaml｣ W⬇️  
 　　｢MainWindow.xaml 📌 ✖｣ / ｢XAML｣  
-　　　編集  
-　　　　"<!-- GUI実装 -->"  
-　　　　入力File :C:\Users\atsus\work\wk\exrm_MainWindow.xaml  
+　　　編集 (⚠️Link先はGUI実装済み)  
+　　　　[MainWindow.xaml](https://github.com/AHazeyama/public/blob/main/exrm_wpf/MainWindow.xaml)
 ## イベント処理モジュール作成  
 　｢ソリューションエクスプローラー｣  
 　　｢📄MainWindow.xaml｣  
 　　　｢C# MainWindow.xaml.cs｣ W⬇️  
 　　｢MainWindow.xaml.cs 📌 ✖｣  
-　　　編集  
-　　　　"// 削除＋バックアップ＋Undoロジック モジュール"  
-　　　　入力File :C:\Users\atsus\work\wk\exrm_MainWindow.xaml.cs  
+　　　編集 (⚠️Link先は下記実装済み)  
+　　　　☆ 削除 ＋ バックアップ ＋ Undoロジック モジュール  
+　　　　[MainWindow.xaml.cs](https://github.com/AHazeyama/public/blob/main/exrm_wpf/MainWindow.xaml.cs)  
+
 ## ロジックモジュール作成  
 　｢ソリューションエクスプローラー｣  
 　　｢exrm｣ 右⬇️ ⇒ ｢追加｣ ⬇️ ⇒ ｢新しい項目…｣ ⬇️  
@@ -61,9 +61,8 @@
 　　　　｢exrm/｣に"ExrmCore.cs"を入力  
 　　　　　[追加] ⬇️  
 　　　｢ExrmCore 📌 ✖｣  
-　　　　編集  
-　　　　"// イベント処理モジュール"  
-　　　　入力File :C:\Users\atsus\work\wk\exrm_ExrmCore.cs  
+　　　　編集 (⚠️Link先はイベント処理モジュール実装済み)  
+　　　　　[ExrmCore.cs](https://github.com/AHazeyama/public/blob/main/exrm_wpf/ExrmCore.cs)
 ## クラス指定明確化  
 　｢ソリューションエクスプローラー｣  
 　　｢📄App.xaml｣  
@@ -76,9 +75,8 @@
 　｢ソリューションエクスプローラー｣  
 　　｢exrm｣ 右⬇️ ⇒ ｢プロジェクト ファイルの編集｣ ⬇️  
 　　　｢exrm 📌 ✖｣  
-　　　　編集  
-　　　　"<!-- WinForm有効化 & 単体起動exe生成 -->"  
-　　　　入力File :C:\Users\atsus\work\wk\exrm.csproj  
+　　　　編集 (⚠️Link先はWinForm有効化 & 単体起動exe生成 実装済み)  
+　　　　　[exrm_wpf.csproj](https://github.com/AHazeyama/public/blob/main/exrm_wpf/exrm_wpf.csproj)  
 ## テスト環境構築  
 　｢ソリューションエクスプローラー｣  
 　　｢exrm｣ 右⬇️ ⇒ ｢追加｣ ⬇️ ⇒ ｢新しい項目…｣ ⬇️  
@@ -119,10 +117,6 @@
 　　 Write-Host "`r`n ---- Test Environment ----" -Foreground Cyan  
 　　 tree /f test1st  
 ```
-&emsp; ｢ソリューションエクスプローラー｣  
-```bash
-　　ls <⏎>  
-```
 ## バージョン管理登録(Git)  
 　｢Gitリポジトリの作成｣  
 　　左ペインの｢ローカル｣ ⬇️  # 今回はローカルのみ  
@@ -134,7 +128,7 @@
 　　　｢📄README.md｣ 右⬇️ ⇒ ｢プロジェクトに含める｣ ⬇️  
 　　　｢📄README.md｣ W⬇️  
 　　　｢README.md 📌 ✖｣  
-　　　　![](image/HTML_logo.png) 編集  
+　　　　![](image/Markdown_logo.png) 編集  
 　　　　GitHub [README.md](https://github.com/AHazeyama/public/blob/main/exrm_wpf/README.md)  
 　　　｢📄プレビューを開く｣ ⬇️  
 ## ターミナル表示  
