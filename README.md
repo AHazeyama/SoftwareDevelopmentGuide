@@ -14,7 +14,7 @@
 個人開発だけでなく、小規模〜中規模の受託開発や業務システム開発で再利用できることを目的としています。
 ## 要件定義 
 業務内容やシステム化の目的を整理し、必要な機能・制約・対応範囲を明確化するためのガイド。  
-ヒアリングシートや業務フロー、機能一覧など、開発の土台となる成果物を作成。  
+ヒアリングシートや業務フロー、機能一覧など、開発の土台となる成果物を作成します。  
 [📄要件定義](docs/01_RequirementDefinition.md)
 ## 基本設計
 システム全体の構成や画面、データ構造、機能の関連性を整理する工程。  
@@ -37,14 +37,15 @@ GitおよびGitHubを利用したソースコード管理方法。
 [📄Git運用](docs/05_Documentation.md)
 ## 開発環境毎のテンプレート
 言語・開発環境ごとの標準構成や初期設定テンプレート。
-新規プロジェクトを短時間で立ち上げ、同じ品質で開発を開始できることを目的としています。
-### C#（Visual Studio）
-&emsp; Visual StudioによるWPFアプリケーション開発を中心に、プロジェクト作成、標準構成、  
-&emsp; 単体EXE作成、Git運用までをまとめています。  
-&emsp; [📄C# Template](docs/05_Documentation.md)
-### Python（Vim / Visual Studio）
-&emsp; Python開発に必要な環境構築、ディレクトリ構成、テンプレート、ビルド、Git管理までをまとめています。
-&emsp; [📄Python Template](docs/05_Documentation.md)
+新規プロジェクトを短時間で立ち上げ、同じ品質で開発を開始できることを目的としています。  
+&emsp; <font size="4">C#</font>  
+&emsp; &emsp; Visual StudioによるWPFアプリケーション開発を中心に、プロジェクト作成、標準構成、単体EXE作成、  
+&emsp; &emsp; Git運用までをまとめています。  
+&emsp; &emsp; [📄C# [WPF / VisualStudio]](docs/05_Documentation.md)  
+&emsp; <font size="4">Python</font>  
+&emsp; &emsp; Python開発に必要な環境構築、ディレクトリ構成、テンプレート、ビルド、Git管理までをまとめています。  
+&emsp; &emsp; [📄Python [PySide6 / VisualStudio]](docs/05_Documentation.md)  
+&emsp; &emsp; [📄Python [FastAPI / Vim]](docs/05_Documentation.md)  
 ## Docker構築
 Dockerを利用した開発環境の構築手順。
 環境差異を最小限に抑え、再現性の高い開発環境を構築することを目的としています。
