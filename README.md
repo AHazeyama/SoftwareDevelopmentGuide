@@ -41,7 +41,7 @@ GitおよびGitHubを利用したソースコード管理方法。
 &emsp; <font size="4">C#</font>  
 &emsp; &emsp; Visual StudioによるWPFアプリケーション開発を中心に、プロジェクト作成、標準構成、単体EXE作成、  
 &emsp; &emsp; Git運用までをまとめています。  
-&emsp; &emsp; [📄C# [WPF / VisualStudio]](docs/05_Documentation.md)  
+&emsp; &emsp; [📄C# [WPF / VisualStudio]](templates/exrm_WPF_VS2026.md)  
 &emsp; <font size="4">Python</font>  
 &emsp; &emsp; Python開発に必要な環境構築、ディレクトリ構成、テンプレート、ビルド、Git管理までをまとめています。  
 &emsp; &emsp; [📄Python [PySide6 / VisualStudio]](docs/05_Documentation.md)  
