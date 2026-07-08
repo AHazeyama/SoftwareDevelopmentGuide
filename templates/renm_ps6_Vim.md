@@ -1,13 +1,13 @@
-# exrm_WPF_VisualStudio2026  
+# renm_PySide6_Vim
 ## OverView
-目的 : VisualStudioを使用したアプリケーション開発  
-内容 : Sumcheck用HASH値生成&比較ツール [hvgc_wpf]  
+目的 : PySide6を使用したアプリケーション開発  
+内容 : ファイル/ディレクトリ名一括変換ツール[renm_ps6]  
 |Item|Content|
 |:--|:--|
-|OS|![](./assets/logo_Windows11.png)|
-|IDE|![](./assets/logo_VisualStudio.png)|
-|言語|C#|
-|Framework|WPF|
+|OS|![](./assets/logo_Windows11.png) / ![](./assets/logo_Ubuntu.png)|
+|IDE|![](./assets/logo_Vim.png) ( Plugin, LSP追加 )|
+|言語|![](./assets/logo_Python.png)|
+|Framework|![](./assets/logo_PySide6.png)|
 
 ※ 記号例
 ```
@@ -17,7 +17,9 @@
 <br>
 
 # ファイル/フォルダーの排他的削除ツール [exrm]作成手順
-
+## 開発環境構築
+### 仮想環境生成
+　　![](assets/shell_P.png)
 ※｢.NET 10.0SDK｣をインストール (手順省略)  
 　　Installer [Download](https://dotnet.microsoft.com/ja-jp/download/dotnet/10.0)  
 ※｢VisualStudioInstaller｣で、ワークロード｢.NETデスクトップ開発｣をインストール (手順省略)  
