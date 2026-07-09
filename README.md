@@ -1,8 +1,5 @@
 > [!CAUTION]
-> 現在作成途中です。  
-> 内容には不備があるかもしれません。  
-> 随時更新していきます。  
-
+> This guide is continuously updated.
 <p align="left">
 	<img src="assets/Title_dark.png#gh-dark-mode-only" alt="banner dark">
 	<img src="assets/Title_light.png#gh-light-mode-only" alt="banner light">
