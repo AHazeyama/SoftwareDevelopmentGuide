@@ -59,4 +59,8 @@ Dockerを利用した開発環境の構築手順。
 ## 開発チェックリスト
 開発工程におけるチェックリスト。　　
 各項目完了時にレビューを行いチェックリストに記載します。  
-[📄開発チェックリスト](docs/DevelopmentChecklist.md)  
+[📄開発チェックリスト](docs/Development_Checklist.md)  
+## Future Plans
+- FastAPI Template
+- Flask Template
+- PySide6 Template
