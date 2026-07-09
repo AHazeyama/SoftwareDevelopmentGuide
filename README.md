@@ -28,20 +28,20 @@
 [📄詳細設計](docs/03_DetailDesign.md)  
 ## UI設計
 操作性・視認性・一貫性を重視したユーザーインターフェース設計のガイド。  
-画面レイアウト、配色、ボタン配置、メッセージ表示など、ユーザーが迷わず操作できる設計を目指します。
+画面レイアウト、配色、ボタン配置、メッセージ表示など、ユーザーが迷わず操作できる設計を目指します。  
 [📄UI設計](docs/04_UIDesign.md)  
 ## ドキュメント作成
 ソースコードや設計情報を保守しやすい形で文書化するためのガイド。  
 Doxygenを用いたAPIリファレンスの生成や、MarkdownによるREADME・設計書の作成方法など、継続的なドキュメント管理についてまとめています。  
 [📄ドキュメント作成](docs/05_Documentation.md)  
 ## 開発環境毎のテンプレート
-言語・開発環境ごとの標準構成や初期設定テンプレート。
+言語・開発環境ごとの標準構成や初期設定テンプレート。  
 新規プロジェクトを短時間で立ち上げ、同じ品質で開発を開始できることを目的としています。  
 ### C#  
-　　Visual StudioによるWPFアプリケーション開発テンプレートです。
+　　Visual StudioによるWPFアプリケーション開発テンプレートです。  
 　　[📄C# [WPF / VisualStudio]](templates/exrm_WPF_VS2026.md)  
 ### Python  
-　　Python開発用テンプレートです。
+　　Python開発用テンプレートです。  
 　　[📄Python [PySide6 / VisualStudio]](templates/renm_ps6_Vim.md)  
 　　<!-- &emsp; &emsp; [📄Python [FastAPI / Vim]](docs/05_Documentation.md)  -->
 ## Git運用
@@ -59,4 +59,4 @@ Dockerを利用した開発環境の構築手順。
 ## 開発チェックリスト
 開発工程におけるチェックリスト。　　
 各項目完了時にレビューを行いチェックリストに記載します。  
-[📄リリース手順](docs/DevelopmentChecklist.md)  
+[📄開発チェックリスト](docs/DevelopmentChecklist.md)  
