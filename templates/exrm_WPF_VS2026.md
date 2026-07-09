@@ -84,39 +84,8 @@
 　　　　｢exrm/｣に"mktest.ps1"を入力  
 　　　　[追加] ⬇️  
 　｢mktest 📌 ✖｣  
-　　![](assets/shell_P.png)
-```PowerShell
-　　 #! /usr/bin/pwsh  
-　　 # Resuires -Version 7.4  
-　　 # Test環境構築スクリプト。実行はGit登録後に行います。  
-　　 mkdir test1st  
-　　 cd test1st  
-　　 New-Item test_11.txt  
-　　 New-Item test_12.txt  
-　　 New-Item work_11.txt  
-　　 New-Item work_12.txt  
-　　 mkdir test2nd  
-　　 cd test2nd  
-　　 New-Item test_21.txt  
-　　 New-Item test_22.csv  
-　　 New-Item work_21.txt  
-　　 New-Item work_22.csv  
-　　 cd ..  
-　　 mkdir test3rd  
-　　 cd test3rd  
-　　 New-Item test_31.txt  
-　　 New-Item test_32.csv  
-　　 New-Item work_31.txt  
-　　 New-Item work_32.csv  
-　　 cd ..  
-　　 mkdir work4th  
-　　 cd work4th  
-　　 New-Item work_41.txt  
-　　 New-Item work_42.txt  
-　　 cd ../..  
-　　 Write-Host "`r`n ---- Test Environment ----" -Foreground Cyan  
-　　 tree /f test1st  
-```
+　　![](assets/shell_P.png)  
+　　GitHub [mktest.ps1](https://github.com/AHazeyama/public/blob/main/exrm_wpf/mktest.ps1)
 ## バージョン管理登録(Git)  
 　｢Gitリポジトリの作成｣  
 　　左ペインの｢ローカル｣ ⬇️  # 今回はローカルのみ  
@@ -154,12 +123,18 @@
 <br>
 
 ## 単体アプリ作成  
-  
+### バージョン指定
+　exrm_wpf.versionを編集  
+　GitHub [exrm_wpf.version](https://github.com/AHazeyama/public/blob/main/exrm_wpf/exrm_wpf.version)
+### icon 作成
+　exrm_wpf.icoを作成
+　解像度：16x16, 32x32, 64x64, 128x128, 256x256 [pixel] を内包する事  
+　GitHub [exrm_wpf.ico](https://github.com/AHazeyama/public/blob/main/exrm_wpf/exrm_wpf.ico)  
+　使用ツール [GreenFish Icon Editor Pro ](https://greenfishsoftware.org/)  
 ### Visual Studio  
 
 🔷 アイコン準備  
-　　§ .ico ファイルを用意（256x256含むもの推奨）  
-　　§ プロジェクトに追加  
+　　§ icoファイルをプロジェクトに追加  
 　　　⇒ ソリューションエクスプローラー  
 　　　⇒ 右クリック「追加」 ⇒ 「既存の項目」  
 🔷 アプリにアイコンを設定  
@@ -198,7 +173,6 @@
 　　単体起動exeは"publish"に出力される。  
 > [!CAUTION]
 > ⚠️ 🗀 win-x64 以下のexeは **.dll** が必要( **️単体ではない** )。  
-  
 ### Visual Studio使わない方法  
 プロジェクトフォルダ（.csproj がある場所）で  
 　　![](assets/shell_P.png)  
