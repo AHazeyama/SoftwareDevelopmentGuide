@@ -1,7 +1,7 @@
 > [!CAUTION]
-> 現在作成途中です 😿  
-> 内容には不備があるかもしれません 😎  
-> 随時更新していきます👍  
+> 現在作成途中です。  
+> 内容には不備があるかもしれません。 
+> 随時更新していきます。  
 
 <p align="left">
 	<img src="assets/Title_dark.png#gh-dark-mode-only" alt="banner dark">
