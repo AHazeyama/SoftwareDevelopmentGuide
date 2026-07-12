@@ -69,4 +69,4 @@ Dockerを利用した開発環境の構築手順。
 ## Future Plans
 - FastAPI Template
 - Flask Template
-- PySide6 Template
+- Tkinter Template
