@@ -25,47 +25,54 @@
 クラス設計、関数設計、命名規則、ディレクトリ構成など、実装時のルールを定義。  
 可読性・保守性・再利用性を重視したコーディング標準をまとめています。  
 <!-- [📄詳細設計](docs/03_DetailDesign.md)  -->
-　**Scheduled for creation**
+> [!NOTE]
+> 📄詳細設計　**Scheduled for creation**
 ## UI設計
 操作性・視認性・一貫性を重視したユーザーインターフェース設計のガイド。  
 画面レイアウト、配色、ボタン配置、メッセージ表示など、ユーザーが迷わず操作できる設計を目指します。  
 <!-- [📄UI設計](docs/04_UIDesign.md)  -->
-　**Scheduled for creation**
+> [!NOTE]
+> 📄UI設計　**Scheduled for creation**
 ## ドキュメント作成
 ソースコードや設計情報を保守しやすい形で文書化するためのガイド。  
 Doxygenを用いたAPIリファレンスの生成や、MarkdownによるREADME・設計書の作成方法など、継続的なドキュメント管理についてまとめています。  
 <!-- [📄ドキュメント作成](docs/05_Documentation.md)  -->
-　**Scheduled for creation**
+> [!NOTE]
+> 📄ドキュメント作成　**Scheduled for creation**
 ## 開発環境毎のテンプレート
 言語・開発環境ごとの標準構成や初期設定テンプレート。  
 新規プロジェクトを短時間で立ち上げ、同じ品質で開発を開始できることを目的としています。  
-### C#  
-　　Visual StudioによるWPFアプリケーション開発テンプレートです。  
-　　[📄C# [WPF / VisualStudio]](templates/exrm_WPF_VS2026.md)  
-### Python  
-　　Python開発用テンプレートです。  
-　　[📄Python [PySide6 / VisualStudio]](templates/renm_ps6_Vim.md)  
-　　<!-- &emsp; &emsp; [📄Python [FastAPI / Vim]](docs/05_Documentation.md)  -->
+### &emsp; C#  
+　　　Visual StudioによるWPFアプリケーション開発テンプレートです。  
+　　　[📄C# [WPF / VisualStudio]](templates/exrm_WPF_VS2026.md)  
+### &emsp; Python  
+　　　Python開発用テンプレートです。  
+　　　[📄Python [PySide6 / VisualStudio]](templates/renm_ps6_Vim.md)  
+　　　<!-- 　　　[📄Python [FastAPI / Vim]](docs/05_Documentation.md)  -->
 ## Git運用
 GitおよびGitHubを利用したソースコード管理方法。  
 ブランチ運用、コミットルール、リリース管理など、継続的な開発を支える運用手順を定義します。  
 <!-- [📄Git運用](docs/07_GitOperation.md)  -->
-　**Scheduled for creation**
+> [!NOTE]
+> 📄Git運用　**Scheduled for creation**
 ## Docker構築
 Dockerを利用した開発環境の構築手順。
 環境差異を最小限に抑え、再現性の高い開発環境を構築することを目的としています。  
 <!-- [📄Docker構築](docs/08_Docker.md)  -->
-　**Scheduled for creation**
+> [!NOTE]
+> 📄Docker構築　**Scheduled for creation**
 ## リリース手順
 アプリケーションのビルドから配布までの手順。
 動作確認、成果物作成、GitHub Releasesへの公開など、安定したリリースを行うための標準手順を定義します。  
 <!-- [📄リリース手順](docs/09_Release.md)  -->
-　**Scheduled for creation**
+> [!NOTE]
+> 📄リリース手順　**Scheduled for creation**
 ## 開発チェックリスト
 開発工程におけるチェックリスト。　　
 各項目完了時にレビューを行いチェックリストに記載します。  
 <!-- [📄開発チェックリスト](docs/Development_Checklist.md)  -->
-　**Scheduled for creation**
+> [!NOTE]
+> 📄開発チェックリスト　**Scheduled for creation**
 ## Future Plans
 - FastAPI Template
 - Flask Template
