@@ -5,6 +5,7 @@
 |Item|Content|
 |:--|:--|
 |OS|![](./assets/logo_Windows11.png) / ![](./assets/logo_Ubuntu.png)|
+|Shell|![](./assets/shell_BP.png)|
 |言語|![](./assets/logo_Python.png)|
 |Framework|![](./assets/logo_PySide6.png)|
 |Editor|![](./assets/logo_Vim.png)|
