@@ -43,7 +43,7 @@ Doxygenを用いたAPIリファレンスの生成や、MarkdownによるREADME�
 言語・開発環境ごとの標準構成や初期設定テンプレート。  
 新規プロジェクトを短時間で立ち上げ、同じ品質で開発を開始できることを目的としています。  
 ### 　DeskTop & Web
-　　　Visual StudioによるWPFアプリケーション開発テンプレートです。  
+　　　VisualStudioによるWPFアプリケーション開発テンプレートです。  
 　　　[🗋 C# / WPF](templates/exrm_WPF_VS2026.md)  
 　　　Terminal & Editor による開発用テンプレートです。  
 　　　[🗋 Python / PySide6](templates/renm_ps6_Vim.md)  
