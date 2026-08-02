@@ -44,12 +44,12 @@ Doxygenを用いたAPIリファレンスの生成や、MarkdownによるREADME�
 新規プロジェクトを短時間で立ち上げ、同じ品質で開発を開始できることを目的としています。  
 ### 　DeskTop & Web
 　　　VisualStudioによるWPFアプリケーション開発テンプレートです。  
-　　　[🗋 C# / WPF](templates/exrm_WPF_VS2026.md)  
+　　　　[🗋 C# / WPF](templates/exrm_WPF_VS2026.md)  
 　　　Terminal & Editor による開発用テンプレートです。  
-　　　[🗋 Python / PySide6](templates/renm_ps6_Vim.md)  
+　　　　[🗋 Python / PySide6](templates/renm_ps6_Vim.md)  
 ### 　Mobile
 　　　AndroidStudioによるAPK開発用テンプレートです。  
-　　　[🗋 Dart / Flutter](https://github.com/AHazeyama/preview/blob/main/tmct_flt/tmct_flt_AndroidStudio.md)  
+　　　　[🗋 Dart / Flutter](https://github.com/AHazeyama/preview/blob/main/tmct_flt/tmct_flt_AndroidStudio.md)  
 ## Git運用
 GitおよびGitHubを利用したソースコード管理方法。  
 ブランチ運用、コミットルール、リリース管理など、継続的な開発を支える運用手順を定義します。  
