@@ -1,5 +1,6 @@
 > [!CAUTION]
 > This guide is continuously updated.
+
 <p align="left">
 	<img src="assets/Title_dark.png#gh-dark-mode-only" alt="banner dark">
 	<img src="assets/Title_light.png#gh-light-mode-only" alt="banner light">
@@ -7,7 +8,7 @@
 
 ### このガイドは特定の開発手法に依存せず、ウォーターフォール、アジャイル、小規模開発など、さまざまな開発形態で利用できることを目的としています。
 # Overview
-本リポジトリは、私がソフトウェア開発で採用している開発標準・手順・テンプレートをまとめたガイドです。  
+本リポジトリは、私が **個人的な** ソフトウェア開発で採用している開発標準・手順・テンプレートをまとめたガイドです。  
 特定の言語やフレームワークに依存せず、開発プロセス全体を標準化するために、 要件定義から設計、実装、テスト、ドキュメント作成、リリースまでを体系的に整理し、個人開発・受託開発の双方で再利用できることを目的としています。  
 ## 対象
 ・個人開発者  
