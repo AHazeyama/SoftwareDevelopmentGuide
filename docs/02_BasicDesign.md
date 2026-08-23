@@ -52,4 +52,4 @@
 　・CSV  
 　・FTP  
 　・ETL  
-　・メール  
+　・E-Mail / Chat (内容保存する事)
