@@ -1,14 +1,20 @@
-# exrm_WPF_VisualStudio2026  
-## OverView
+
+<p akugb=:keft>  
+	<img src="./assets/Title_exrm_dark.png#gh-dark-mode-only" alt="banner dark">  
+	<img src="./assets/Title_exrm_light.png#gh-light-mode-only" alt="banner light">  
+</p>  
+
+# OverView  
 目的 : VisualStudioを使用したアプリケーション開発  
 内容 : Sumcheck用HASH値生成&比較ツール [hvgc_wpf]  
+
 |Item|Content|
 |:--|:--|
-|OS|![](./assets/logo_Windows11.png)|
-|IDE|![](./assets/logo_VisualStudio.png)|
-|言語|![](./assets/logo_Csharp.png)|
-|Framework|WPF|
-
+|OS|<img src="./assets/env/M_OS_Win11.png" height="13">|  
+|IDE|<img src="./assets/env/M_IDE_VisualStudio2026.png" height="20">|  
+|言語|<img src="./assets/env/M_LANG_Csharp.png" height="16">
+|Framework|<img src="./assets/env/M_FW_WPF.png" height="14">|
+  
 ※ 記号例
 ```
 ⬇️:マウスクリック、"･･･":テキスト、a/b:選択(a or b)、｢･･･｣:ウィンドウ/メニュー/フォーム、
@@ -24,6 +30,7 @@
 　　Source code [GitHub](https://github.com/AHazeyama/public/tree/main/exrm_wpf)
 
 ## VisualStudio起動
+　🖥️右下の｢<img src="./assets/env/M_OS_Win11icon.png" height="14">｣ ⬇️  ⇒ ｢<img src="./assets/env/M_IDE_VisualStudioInsiders.png" height="18">｣ ⬇️  
 　[新しいプロジェクトの作成] ⬇️  
 　｢新しいプロジェクトの作成｣  
 　　｢テンプレートの検索｣で"WPF"を検索  
@@ -84,7 +91,7 @@
 　　　　｢exrm/｣に"mktest.ps1"を入力  
 　　　　[追加] ⬇️  
 　｢mktest 📌 ✖｣  
-　　![](assets/shell_P.png)  
+　　<img src="./assets/env/M_SHELL_PowerrShell.png" height="12">
 　　GitHub [mktest.ps1](https://github.com/AHazeyama/public/blob/main/exrm_wpf/mktest.ps1)
 ## バージョン管理登録(Git)  
 　｢Gitリポジトリの作成｣  
@@ -97,20 +104,20 @@
 　　　｢📄README.md｣ 右⬇️ ⇒ ｢プロジェクトに含める｣ ⬇️  
 　　　｢📄README.md｣ W⬇️  
 　　　｢README.md 📌 ✖｣  
-　　　　![](assets/logo_Markdown.png) 編集  
+　　　　<img src="./assets/env/M_LANG_Markdown.png" height="16"> 編集  
 　　　　GitHub [README.md](https://github.com/AHazeyama/public/blob/main/exrm_wpf/README.md)  
 　　　｢📄プレビューを開く｣ ⬇️  
 ## ターミナル表示  
 　　｢表示｣ ⇒ ｢ターミナル｣ ⬇️  
 ### Test環境構築  
 　｢Developer PowerShell 7 📌 ✖｣  
-　　![](assets/shell_P.png)  
+　　<img src="./assets/env/M_SHELL_PowerrShell.png" height="12">
 ```PowerShell
 　　　　　　./mktest.ps1 <⏎>  
 ```
 ## 動作確認  
 ### アプリ起動  
-　　｢VisualStudio｣  
+　　<img src="./assets/env/M_IDE_VisualStudio2026.png" height="18">  
 　　　　・上部のアイコンから[▶ 実行] ⬇️  
 ### 試行 ( 🗀test1st で実施 )
 1. ｢**Select**｣ をクリックし、**Exec directory** を選択
@@ -139,16 +146,16 @@
 　　　⇒ 右クリック「追加」 ⇒ 「既存の項目」  
 🔷 アプリにアイコンを設定  
 　　WPF / WinForms 共通  
-　　　i. プロジェクト右クリック  
-　　　ii. 「プロパティ」  
-　　　iii. 「アプリケーション」  
-　　　iv. 「アイコンとマニフェスト」  
+　　　i.  プロジェクト右クリック  
+　　　ii.  「プロパティ」  
+　　　iii.  「アプリケーション」  
+　　　iv.  「アイコンとマニフェスト」  
 　　　v.  アイコン選択  
 🔷 csproj 直接設定（確実）  
 　　.csproj に追加：  
 　　｢exrm_wpf｣ 右⬇️  
 　　　｢プロジェクトファイルの編集｣ ⬇️  
-　　![](assets/logo_XML.png)
+　　<img src="./assets/env/M_LANG_XML.png" height="20">  
 ```xml
 　　<PropertyGroup>  
 　　　　<PublishSingleFile>true</PublishSingleFile>  
@@ -159,9 +166,9 @@
 ```
 🔷 単一exe化（Single File Publish）  
 　　「公開」「現在公開している場所」「ターゲット」  
-　　　「🗀 フォルダー」️ ⬇️ ⇒ [次へ(N)] ️⬇️  
+　　　「🗁 フォルダー」️ ⬇️ ⇒ [次へ(N)] ️⬇️  
 　　「公開」「どのローカルターゲットに発行しますか」「特定のターゲット」  
-　　　「🗀 フォルダー」️ ⬇️ ⇒ [次へ(N)]️ ⬇️  
+　　　「🗁 フォルダー」️ ⬇️ ⇒ [次へ(N)]️ ⬇️  
 　　「公開」「ローカルまたはネットワークフォルダーへのパスを指定してください」「場所」  
 　　　「フォルダーの場所」👈指定 ⇒ [参照'(R)…] ⬇️ ⇒ [完了(F)] ⬇️  
 　　「実行プロファイル作成の進行状況」[完了]  
@@ -169,15 +176,16 @@
 　　[発行]️ ⬇️：👈exeが作成される (言葉が解りにくい<font size="5">😾</font>)  
 🔷 公開結果 ⇒ <font size="5">🪰</font>デバッグ (勝手にやって<font size="5">😎</font>)  
 　📦 出力先  
-　　　🗀 : exrm_wpf\bin\Release\net10.0-windows\win-x64\publish  
+　　　🗁 : exrm_wpf\bin\Release\net10.0-windows\win-x64\publish  
 　　単体起動exeは"publish"に出力される。  
 > [!CAUTION]
-> ⚠️ 🗀 win-x64 以下のexeは **.dll** が必要( **️単体ではない** )。  
+> ⚠️ 🗁 win-x64 以下のexeは **.dll** が必要( **️単体ではない** )。  
 ### Visual Studio使わない方法  
 プロジェクトフォルダ（.csproj がある場所）で  
-　　![](assets/shell_P.png)  
+　　<img src="./assets/env/M_SHELL_PowerrShell.png" height="12">
 ```PowerShell
-　　dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true <⏎>  
+　　dotnet publish -c Release -r win-x64 --self-contained true  
+　　　-p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true <⏎>  
 ```
 　📦 出力先  
 　　　bin\Release\net10.0-windows\win-x64\publish\  

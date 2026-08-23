@@ -1,14 +1,19 @@
-# renm_PySide6_Vim
-## OverView
+<p akugb=:keft>  
+	<img src="./assets/Title_renm_dark.png#gh-dark-mode-only" alt="banner dark">  
+	<img src="./assets/Title_renm_light.png#gh-light-mode-only" alt="banner light">  
+</p>  
+
+# OverView
 目的 : PySide6を使用したアプリケーション開発  
 内容 : ファイル/ディレクトリ名一括変換ツール[renm_ps6]  
 |Item|Content|
 |:--|:--|
-|OS|![](./assets/logo_Windows11.png) / ![](./assets/logo_Ubuntu.png)|
-|Shell|![](./assets/shell_BP.png)|
-|言語|![](./assets/logo_Python.png)|
-|Framework|![](./assets/logo_PySide6.png)|
-|Editor|![](./assets/logo_Vim.png)|
+|OS|<img src="./assets/env/M_OS_Win11.png" height="13">　/　<img src="./assets/env/M_OS_Ubuntu.png" height="13">|  
+|Shell|<img src="./assets/env/M_SHELL_PowerrShell.png" height="14">　/　<img src="./assets/env/M_SHELL_BASH.png" height="14">|  
+|言語|<img src="./assets/env/M_LANG_Python.png" height="20">|  
+|Framework|<img src="./assets/env/M_FW_PySide6.png" height="32">|  
+|Editor|<img src="./assets/env/M_EDT_Vim.png" height="14">|  
+
 
 ※ 記号例
 ```
@@ -20,36 +25,36 @@
 # ファイル/フォルダーの排他的削除ツール [exrm]作成手順
 ## 開発環境構築
 ### 仮想環境生成
-　　![](assets/shell_P.png) Commands
+　<img src="./assets/env/M_SHELL_PowerrShell.png" height="12">  
 ```PowerShell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass <⏎>  # コマンド抑止バイパス
-py -m venv renm_env <⏎>  # 仮想環境構築
-.\renm_env\Scripts\Activate.ps1 <⏎>  # 仮想環境起動
-py -m pip install -U pip <⏎>  # Pkg管理Toolアップデート
-py -m pip install PySide6 pyinstaller pyinstaller-versionfile <⏎>  # Toolインストール
-pip list <⏎>  # 適用ツール確認
-# Development process
-deactivate <⏎>  # 仮想環境停止 (開発終了時に実行)
+　Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass <⏎>  # コマンド抑止バイパス
+　py -m venv renm_env <⏎>  # 仮想環境構築
+　.\renm_env\Scripts\Activate.ps1 <⏎>  # 仮想環境起動
+　py -m pip install -U pip <⏎>  # Pkg管理Toolアップデート
+　py -m pip install PySide6 pyinstaller pyinstaller-versionfile <⏎>  # Toolインストール
+　pip list <⏎>  # 適用ツール確認
+　# Development process
+　deactivate <⏎>  # 仮想環境停止 (開発終了時に実行)
 ```
-　　![](assets/shell_B.png) Commands
+　<img src="./assets/env/M_SHELL_BASH.png" height="12">  
 ```bash
-py -m venv renm_env <⏎>  # 仮想環境構築
-source ./renm_env/bin/activate <⏎>  # 仮想環境起動
-py -m pip install -u pip <⏎>  # Pkg管理Toolアップデート
-py -m pip install PySide6 pyinstaller pyinstaller-versionfile <⏎>  # Toolインストール
-pip list <⏎>  # 適用ツール確認
-# Development process
-deactivate <⏎>  # 仮想環境停止 (開発終了時に実行)
+　py -m venv renm_env <⏎>  # 仮想環境構築
+　source ./renm_env/bin/activate <⏎>  # 仮想環境起動
+　py -m pip install -u pip <⏎>  # Pkg管理Toolアップデート
+　py -m pip install PySide6 pyinstaller pyinstaller-versionfile <⏎>  # Toolインストール
+　pip list <⏎>  # 適用ツール確認
+　# Development process
+　deactivate <⏎>  # 仮想環境停止 (開発終了時に実行)
 ```
 > [!NOTE]  
 > 実行状況は末尾 [Apendix] に記載
 
 ## 開発
 ### renm_ps6.py コーディング
-　![](./assets/logo_Python.png) Source code  
+　<img src="./assets/env/M_LANG_Python.png" height="18">  Source code  
 　GitHub [renm_ps6.py](https://github.com/AHazeyama/public/blob/main/renm_ps6/renm_ps6.py)
 ## 動作確認
-　![](./assets/shell_BP.png)
+　<img src="./assets/env/M_SHELL_PowerrShell.png" height="12">　/　<img src="./assets/env/M_SHELL_BASH.png" height="12">
 ```Powershell
 Python3 renm_ps6.py <⏎>
 ```
@@ -83,7 +88,7 @@ Python3 renm_ps6.py <⏎>
 　　　　｢exrm/｣に"mktest.ps1"を入力  
 　　　　[追加] ⬇️  
 　｢mktest 📌 ✖｣  
-　　![](assets/shell_P.png)
+　　<img src="./assets/env/M_SHELL_PowerrShell.png" height="12">  
 ## バージョン管理登録(Git)  
 　｢Gitリポジトリの作成｣  
 　　左ペインの｢ローカル｣ ⬇️  # 今回はローカルのみ  
@@ -95,14 +100,14 @@ Python3 renm_ps6.py <⏎>
 　　　｢📄README.md｣ 右⬇️ ⇒ ｢プロジェクトに含める｣ ⬇️  
 　　　｢📄README.md｣ W⬇️  
 　　　｢README.md 📌 ✖｣  
-　　　　![](assets/logo_Markdown.png) 編集  
+　　　　<img src="./assets/env/M_LANG_Markdown.png" height="16">  編集  
 　　　　GitHub [README.md](https://github.com/AHazeyama/public/blob/main/exrm_wpf/README.md)  
 　　　｢📄プレビューを開く｣ ⬇️  
 ## ターミナル表示  
 　　｢表示｣ ⇒ ｢ターミナル｣ ⬇️  
 ### Test環境構築  
 　｢Developer PowerShell 7 📌 ✖｣  
-　　![](assets/shell_P.png)  
+　　<img src="./assets/env/M_SHELL_PowerrShell.png" height="12">  
 ```PowerShell
 　　　　　　./mktest.ps1 <⏎>  
 ```
@@ -140,7 +145,8 @@ Python3 renm_ps6.py <⏎>
 　　.csproj に追加：  
 　　｢exrm_wpf｣ 右⬇️  
 　　　｢プロジェクトファイルの編集｣ ⬇️  
-　　![](assets/logo_XML.png)
+　　![](assets/env/logo_XML.png)
+　　<img src="./assets/env/M_LANG_XML.png" height="20">  
 ```xml
 　　<PropertyGroup>  
 　　　　<PublishSingleFile>true</PublishSingleFile>  
@@ -159,21 +165,20 @@ Python3 renm_ps6.py <⏎>
 　　「実行プロファイル作成の進行状況」[完了]  
 　　　[閉じる] ⬇️  
 　　[発行]️ ⬇️：👈exeが作成される (言葉が解りにくい<font size="5">😾</font>)  
-🔷 公開結果 ⇒ <font size="5">🪰</font>デバッグ (勝手にやって<font size="5">😎</font>)  
-　📦 出力先  
-　　　🗀 : exrm_wpf\bin\Release\net10.0-windows\win-x64\publish  
+　　出力先  
+　　　🗁 : exrm_wpf\bin\Release\net10.0-windows\win-x64\publish  
 　　単体起動exeは"publish"に出力される。  
 > [!CAUTION]
-> ⚠️ 🗀 win-x64 以下のexeは **.dll** が必要( **️単体ではない** )。  
+> ⚠️ 🗁 win-x64 以下のexeは **.dll** が必要( **️単体ではない** )。  
   
 ### Visual Studio使わない方法  
 プロジェクトフォルダ（.csproj がある場所）で  
-　　![](assets/shell_P.png)  
+　　<img src="./assets/env/M_SHELL_PowerrShell.png" height="12">  
 ```PowerShell
 　　dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true <⏎>  
 ```
 　📦 出力先  
-　　　bin\Release\net10.0-windows\win-x64\publish\  
+　　　🗁 :　.\bin\Release\net10.0-windows\win-x64\publish\  
 
 ## Git 更新 (README.md、exrm.exe)  
 　｢VisualStudio｣  
@@ -183,9 +188,11 @@ Python3 renm_ps6.py <⏎>
 　　　｢メッセージを入力してください <必須>｣ にコメント入力  
 　　[すべてをコミット] ⬇️  
 
+
 # Apendix
 ### Command Line & Messages
-![](./assets/shell_P.png)  
+<img src="./assets/env/M_SHELL_PowerrShell.png" height="12">  
+
 ```Powershell
 PS C:\bin\renm_ps6> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 PS C:\bin\renm_ps6> py -m venv renm_env
@@ -270,7 +277,8 @@ setuptools                83.0.0
 shiboken6                 6.11.1
 (renm_env) PS C:\bin\renm_ps6>
 ```
-![](./assets/shell_B.png)  
+<img src="./assets/env/M_SHELL_BASH.png" height="12">  
+
 ```bash
 Guest@Ubuntu:~/bin/renm_ps6$ py -m venv renm_env
 Guest@Ubuntu:~/bin/renm_ps6$ source ./renm_env/bin/activate
