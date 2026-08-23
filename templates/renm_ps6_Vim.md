@@ -22,7 +22,7 @@
 ```
 <br>
 
-# ファイル/フォルダーの排他的削除ツール [exrm]作成手順
+# ファイル/フォルダーの一括リネームツール [renm]作成手順
 ## 開発環境構築
 ### 仮想環境生成
 　<img src="./assets/env/M_SHELL_PowerrShell.png" height="12">  
@@ -72,6 +72,7 @@ Python3 renm_ps6.py <⏎>
 　　｢📄App.xaml｣  
 　　　｢C# App.xaml.cs｣ W⬇️  
 　　｢App.xaml.cs 📌 ✖｣  
+　　<img src="./assets/env/M_LANG_XML.png" height="20">  
 　　　　編集  
 　　　　　旧：public partial class App : Application  
 　　　　　新：public partial class App : System.Windows.Application  
@@ -109,7 +110,7 @@ Python3 renm_ps6.py <⏎>
 　｢Developer PowerShell 7 📌 ✖｣  
 　　<img src="./assets/env/M_SHELL_PowerrShell.png" height="12">  
 ```PowerShell
-　　　　　　./mktest.ps1 <⏎>  
+　　./mktest.ps1 <⏎>  
 ```
 ## 動作確認  
 ### アプリ起動  
@@ -126,8 +127,7 @@ Python3 renm_ps6.py <⏎>
 <br>
 
 ## 単体アプリ作成  
-  
-### Visual Studio  
+<img src="./assets/env/M_IDE_VisualStudio2026.png" height="20">
 
 🔷 アイコン準備  
 　　§ .ico ファイルを用意（256x256含むもの推奨）  
@@ -145,7 +145,6 @@ Python3 renm_ps6.py <⏎>
 　　.csproj に追加：  
 　　｢exrm_wpf｣ 右⬇️  
 　　　｢プロジェクトファイルの編集｣ ⬇️  
-　　![](assets/env/logo_XML.png)
 　　<img src="./assets/env/M_LANG_XML.png" height="20">  
 ```xml
 　　<PropertyGroup>  
