@@ -1,12 +1,12 @@
 > [!CAUTION]  
 > This guide is continuously updated.  
-<!--
 <p align="left">  
 	<img src="assets/Title_dark.png#gh-dark-mode-only" alt="banner dark">  
 	<img src="assets/Title_light.png#gh-light-mode-only" alt="banner light">  
 </p>  
--->  
+<!--  
 <img src="assets/Title_light.png">  
+-->  
   
 ### このガイドは特定の開発手法に依存せず、ウォーターフォール、アジャイル、小規模開発など、さまざまな開発形態で利用できることを目的としています。  
 # Overview  
