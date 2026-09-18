@@ -133,7 +133,7 @@
 
 ## クラス指定明確化  
 　<img src="./assets/env/M_win.png" height="14"> <img src="./assets/env/M_menu-L.png" height="12"> ソリューションエクスプローラー <img src="./assets/env/M_menu-R.png" height="12">  
-　　<img src="./assets/env/M_menu-L.png" height="12"> <img src="./assets/prtsc/M_VS_MENU_app-xaml.png" height="14"> <img src="./assets/env/M_menu-R.png" height="12"> W <img src="./assets/env/M_click.png" height="14">  
+　　<img src="./assets/env/M_menu-L.png" height="12"> <img src="./assets/prtsc/M_VS_MENU_app-xaml-cs.png" height="14"> <img src="./assets/env/M_menu-R.png" height="12"> W <img src="./assets/env/M_click.png" height="14">  
 　　<img src="./assets/prtsc/M_VS_PANE_solution-explorer04.png">  
 　　　　　　　<img src="./assets/env/M_allow-D.png" height="14">  
 　　[<img src="./assets/prtsc/M_VS_PANE_app-xaml-cs.png" height="128">](./assets/prtsc/M_VS_PANE_app-xaml-cs.png)　
