@@ -47,7 +47,8 @@
 <img src="./assets/env/M_click.png" height="14"> <img src="./assets/env/M_next.png" height="14">
 　<img src="./assets/env/M_menu-L.png" height="14">
 <img src="./assets/env/M_IDE_VisualStudioInsiders.png" height="18">｣ <img src="./assets/env/M_click.png" height="14">  
-　<img src="./assets/prtsc/M_VS_new-prj.png">
+　　<img src="./assets/env/M_menu-L.png" height="12"> 
+<img src="./assets/prtsc/M_VS_new-prj.png"> <img src="./assets/env/M_menu-R.png" height="12">
  <img src="./assets/env/M_click.png" height="14">  
 　　<img src="./assets/env/M_win.png" height="14"> <img src="./assets/env/M_menu-L.png" height="12"> 新しいプロジェクトの作成 <img src="./assets/env/M_menu-R.png" height="12">  
 　　　<img src="./assets/env/M_menu-L.png" height="12" align="top">
