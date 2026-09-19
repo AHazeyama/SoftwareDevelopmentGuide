@@ -423,7 +423,7 @@ tree /f test1st
 　　　　　　　<img src="./assets/env/M_allow-D.png" height="14">  
 　　　<img src="./assets/env/M_menu-L.png" height="12"> <img src="./assets/prtsc/M_VS_MENU_place.png" hight="14"> <img src="./assets/env/M_menu-R.png" height="12"> <img src="./assets/env/M_click.png" height="14"> <img src="./assets/env/M_next.png" height="14">　
 <img src="./assets/env/M_menu-L.png" height="12"> <img src="./assets/prtsc/M_VS_MENU_reference.png" height="14"> <img src="./assets/env/M_menu-R.png" height="12"> <img src="./assets/env/M_click.png" height="14"> <img src="./assets/env/M_next.png" height="14">　
-**出力** <img src="./assets/env/M_folder.png" height="14"> **選択** <img src="./assets/env/M_next.png" height="14">　
+出力 <img src="./assets/env/M_folder.png" height="14"> 選択 <img src="./assets/env/M_next.png" height="14">　
 <img src="./assets/env/M_menu-L.png" height="12"> <img src="./assets/prtsc/M_VS_MENU_completion.png" height="14"> <img src="./assets/env/M_menu-R.png" height="12"> <img src="./assets/env/M_click.png" height="14">  
 　　　[<img src="./assets/prtsc/M_VS_DLG_public03.png" width="320">](./assets/prtsc/M_VS_DLG_public03.png)　
 <img src="./assets/env/M_allow-T.png" height="28" align="top">　
