@@ -15,39 +15,29 @@
 |Editor|<img src="./assets/env/M_EDT_Vim.png" height="14">|  
 
 
-※ 記号例
-```
-⬇️:マウスクリック、"･･･":テキスト、a/b:選択(a or b)、｢･･･｣:ウィンドウ/メニュー/フォーム、
-[･･･]:ボタン、<･･･>:Key、⇒:次動作、#･･･:コメント  
-```
+> [!caution]
+> Trademarks: Company names, product names, and logos used in documents related to this project are trademarks or registered trademarks of their respective owners. They are cited solely for the purpose of describing the technologies used.
+ 
+> [!NOTE]  
+> ※ 凡例  
+> 　<img src="./assets/env/M_monitor.png" height="14"> デスクトップ、️<img src="./assets/env/M_click.png" height="14">：マウスクリック、 <img src="./assets/env/M_button.png" height="14">：ボタン、<img src="./assets/env/M_key.png" height="14">：Press the Key、<img src="./assets/env/M_return.png" height="12">：Enter key press、  
+> 　<img src="./assets/env/M_text.png" height="14">：テキスト、**a** / **b**：選択(**a** or **b**)、<img src="./assets/env/M_menu.png" height="11">：ウィンドウ/メニュー/フォーム、⇒：次動作、<img src="./assets/env/M_comment.png" height="12">：コメント、  
+> <img src="./assets/env/M_win.png" height="14">：ウィンドウ / ペイン / ダイアログ 、<img src="./assets/env/M_term.png" height="14">：ターミナル、 <img src="./assets/env/M_write.png" height="14"> : 編集 / コーディング / 描画  
+> <img src="./assets/env/M_copy.png" height="14">：クリックでText表示 (表示されたTextの右上にある <img src="./assets/env/M_git-copy.png" height="14"> <img src="./assets/env/M_click.png" height="14"> でコピー)  
+> 縮小表示されている画像は <img src="./assets/env/M_click.png" height="14"> で拡大されます (マウスカーソルが <img src="./assets/env/M_info.png" height="14"> になる画像が縮小表示画像です)。  
+>
+> <img src="./assets/env/M_infoG.png" height="14"> ブラウザを **Darkモード** にして頂けると、見やすくなります。  
+
 <br>
 
 # ファイル/フォルダーの一括リネームツール [renm]作成手順
-## 開発環境構築
-### 仮想環境生成
-　<img src="./assets/env/M_SHELL_PowerrShell.png" height="12">  
-```PowerShell
-　Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass <⏎>  # コマンド抑止バイパス
-　py -m venv renm_env <⏎>  # 仮想環境構築
-　.\renm_env\Scripts\Activate.ps1 <⏎>  # 仮想環境起動
-　py -m pip install -U pip <⏎>  # Pkg管理Toolアップデート
-　py -m pip install PySide6 pyinstaller pyinstaller-versionfile <⏎>  # Toolインストール
-　pip list <⏎>  # 適用ツール確認
-　# Development process
-　deactivate <⏎>  # 仮想環境停止 (開発終了時に実行)
-```
-　<img src="./assets/env/M_SHELL_BASH.png" height="12">  
-```bash
-　py -m venv renm_env <⏎>  # 仮想環境構築
-　source ./renm_env/bin/activate <⏎>  # 仮想環境起動
-　py -m pip install -u pip <⏎>  # Pkg管理Toolアップデート
-　py -m pip install PySide6 pyinstaller pyinstaller-versionfile <⏎>  # Toolインストール
-　pip list <⏎>  # 適用ツール確認
-　# Development process
-　deactivate <⏎>  # 仮想環境停止 (開発終了時に実行)
-```
-> [!NOTE]  
-> 実行状況は末尾 [Apendix] に記載
+
+## Python 開発環境共通設定  
+　　Pythonを使用した開発に関する共通設定を記載しています。  
+　　[<img src="./assets/env/M_link.png" height="14"> **Common settings for the development environment**](https://github.com/AHazeyama/Tkinter_tools/blob/main/CommonSettings.md)
+
+> [!NOTE]
+> 実行Logは末尾 Apendix に記載  
 
 ## 開発
 ### renm_ps6.py コーディング
