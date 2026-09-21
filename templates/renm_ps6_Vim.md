@@ -17,18 +17,16 @@
 
 > [!caution]
 > Trademarks: Company names, product names, and logos used in documents related to this project are trademarks or registered trademarks of their respective owners. They are cited solely for the purpose of describing the technologies used.
- 
+
 > [!NOTE]  
-> ※ 凡例  
-> 　<img src="./assets/env/M_monitor.png" height="14"> デスクトップ、️<img src="./assets/env/M_click.png" height="14">：マウスクリック、 <img src="./assets/env/M_button.png" height="14">：ボタン、<img src="./assets/env/M_key.png" height="14">：Press the Key、<img src="./assets/env/M_return.png" height="12">：Enter key press、  
-> 　<img src="./assets/env/M_text.png" height="14">：テキスト、**a** / **b**：選択(**a** or **b**)、<img src="./assets/env/M_menu.png" height="11">：ウィンドウ/メニュー/フォーム、⇒：次動作、<img src="./assets/env/M_comment.png" height="12">：コメント、  
-> <img src="./assets/env/M_win.png" height="14">：ウィンドウ / ペイン / ダイアログ 、<img src="./assets/env/M_term.png" height="14">：ターミナル、 <img src="./assets/env/M_write.png" height="14"> : 編集 / コーディング / 描画  
-> <img src="./assets/env/M_copy.png" height="14">：クリックでText表示 (表示されたTextの右上にある <img src="./assets/env/M_git-copy.png" height="14"> <img src="./assets/env/M_click.png" height="14"> でコピー)  
-> 縮小表示されている画像は <img src="./assets/env/M_click.png" height="14"> で拡大されます (マウスカーソルが <img src="./assets/env/M_info.png" height="14"> になる画像が縮小表示画像です)。  
+> 凡例  
+> [<img src="./assets/env/M_legend.png" width="480">](./assets/env/M_legend.png)  
+>
+> 縮小画像 (マウスカーソルが <img src="./assets/env/M_info.png" height="14"> に変化する画像) は <img src="./assets/env/M_click.png" height="14"> で拡大表示します。  
+>
+> Source code / コマンド は <img src="./assets/env/M_copy.png" height="14"> <img src="./assets/env/M_click.png" height="14"> でText表示します (表示されたTextの右上にある <img src="./assets/env/M_git-copy.png" height="14"> <img src="./assets/env/M_click.png" height="14"> でコピー)。  
 >
 > <img src="./assets/env/M_infoG.png" height="14"> ブラウザを **Darkモード** にして頂けると、見やすくなります。  
-
-<br>
 
 # ファイル/フォルダーの一括リネームツール [renm]作成手順
 
