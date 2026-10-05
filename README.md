@@ -51,7 +51,7 @@ Doxygenを用いたAPIリファレンスの生成や、MarkdownによるREADME�
 &emsp; &emsp; &emsp; [<img src="./assets/env/M_tech-documents.png" height="18"> C# / WPF](https://github.com/AHazeyama/SoftwareDevelopmentGuide/blob/main/templates/exrm_WPF_VS2026.md)　　　　　# VisualStudioによるWPFアプリケーション開発手順  
 &emsp; &emsp; &emsp; [<img src="./assets/env/M_tech-documents.png" height="18"> Python / PySide6](https://github.com/AHazeyama/SoftwareDevelopmentGuide/blob/main/templates/renm_ps6_Vim.md)　　# Terminal & Editor による開発手順  
 ### 　Mobile  
-&emsp; &emsp; &emsp; [<img src="./assets/env/M_tech-documents.png" height="18"> Dart / Flutter](https://github.com/AHazeyama/public/blob/main/tmct_flt/tmct_flt_AndroidStudio.md)　　　　# AndroidStudioによるAPK開発手順  
+&emsp; &emsp; &emsp; [<img src="./assets/env/M_tech-documents.png" height="18"> Dart / Flutter](https://github.com/AHazeyama/tmct_flt/blob/main/tmct_flt_AndroidStudio.md)　　# AndroidStudioによるAPK開発手順  
 ## Git運用  
 GitおよびGitHubを利用したソースコード管理方法。  
 ブランチ運用、コミットルール、リリース管理など、継続的な開発を支える運用手順を定義します。  
