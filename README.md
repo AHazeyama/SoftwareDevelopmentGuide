@@ -50,6 +50,7 @@ Doxygenを用いたAPIリファレンスの生成や、MarkdownによるREADME�
 ### 　DeskTop & Web  
 &emsp; &emsp; &emsp; [<img src="./assets/env/M_tech-documents.png" height="18"> C# / WPF](https://github.com/AHazeyama/SoftwareDevelopmentGuide/blob/main/templates/exrm_WPF_VS2026.md)　　　　　# VisualStudioによるWPFアプリケーション開発手順  
 &emsp; &emsp; &emsp; [<img src="./assets/env/M_tech-documents.png" height="18"> Python / PySide6](https://github.com/AHazeyama/SoftwareDevelopmentGuide/blob/main/templates/renm_ps6_Vim.md)　　# Terminal & Editor による開発手順  
+&emsp; &emsp; &emsp; [<img src="./assets/env/M_tech-documents.png" height="18"> Python / Tkinter](https://github.com/AHazeyama/Tkinter_tools/blob/main/CommonSettings.md)　　# Phthon を使用した開発環境及び開発手順  
 ### 　Mobile  
 &emsp; &emsp; &emsp; [<img src="./assets/env/M_tech-documents.png" height="18"> Dart / Flutter](https://github.com/AHazeyama/tmct_flt/blob/main/tmct_flt_AndroidStudio.md)　　# AndroidStudioによるAPK開発手順  
 ## Git運用  
@@ -79,4 +80,3 @@ Dockerを利用した開発環境の構築手順。
 ## Future Plans  
 - FastAPI Template  
 - Flask Template  
-- Tkinter Template  
