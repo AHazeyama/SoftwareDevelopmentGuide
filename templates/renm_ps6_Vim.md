@@ -36,7 +36,7 @@
 
 ## 開発
 ### renm_ps6.py コーディング
-　[<img src="./assets/env/M_LANG_Python.png" height="18"><br>　　<img src="./assets/env/M_link.png" height="14"> Source code [renm_ps6.py]](https://github.com/AHazeyama/public/blob/main/renm_ps6/renm_ps6.py)  
+　<img src="./assets/env/M_LANG_Python.png" height="18"><br>　　<img src="./assets/env/M_link.png" height="14"> [Source code [renm_ps6.py]](https://github.com/AHazeyama/public/blob/main/renm_ps6/renm_ps6.py)  
 #### 動作確認
 　<img src="./assets/env/M_SHELL_PowerrShell.png" height="12">　/　<img src="./assets/env/M_SHELL_BASH.png" height="12">
 <details>  
